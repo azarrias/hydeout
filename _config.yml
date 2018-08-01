@@ -3,9 +3,18 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout multilang
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed and with multilingual support.'
+title:
+  en: Title
+  es: Título
+tagline:
+  en: 'A multilingual page'
+  es: 'Una página multi-idioma'
+description:
+  en: 'This multilingual page was made with the <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.'
+  es: 'Esta página multi-idioma utiliza el tema <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> para <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.'
+index:
+  en:
+  es: index-es.html
 url:              https://azarrias.github.io
 baseurl:          '/hydeout-multilingual'
                   # the optional subpath of your site, e.g. "/blog"
