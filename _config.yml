@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            Hydeout multilingual
 tagline:          'A Jekyll theme'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://azarrias.github.io
@@ -13,6 +13,10 @@ baseurl:          '/hydeout-multilingual'
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
+                  
+# Multilingual config
+lang: en
+languages: ["en", "es"]
 
 author:
   name:           'Adolfo Zarrias'
