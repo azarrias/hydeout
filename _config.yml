@@ -12,11 +12,10 @@ tagline:
 description:
   en: 'This multilingual page was made with the <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.'
   es: 'Esta página multi-idioma utiliza el tema <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> para <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.'
-index:
-  title:
+index_title:
     en: 'Home'
     es: 'Inicio'
-  url:
+index_url:
     en: 'index.html'
     es: 'index-es.html'
 url:              https://azarrias.github.io
