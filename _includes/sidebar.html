@@ -1,11 +1,11 @@
 <div id="sidebar">
   <header>
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/{{ index_url[page.lang] }}">
+      <a href="{{ site.baseurl }}/{{ site.index_url[page.lang] }}">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        {{ index_title[page.lang] }}
+        {{ site.index_title[page.lang] }}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <p class="lead">{{ site.description[page.lang] }}</p>
