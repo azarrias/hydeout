@@ -14,11 +14,11 @@ description:
   es: 'Esta página multi-idioma utiliza el tema <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> para <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.'
 index:
   title:
-    en: Home
-    es: Inicio
+    en: 'Home'
+    es: 'Inicio'
   url:
-    en:
-    es: index-es.html
+    en: ''
+    es: 'index-es.html'
 url:              https://azarrias.github.io
 baseurl:          '/hydeout-multilingual'
                   # the optional subpath of your site, e.g. "/blog"
