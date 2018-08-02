@@ -17,7 +17,7 @@ index:
     en: 'Home'
     es: 'Inicio'
   url:
-    en: ''
+    en: 'index.html'
     es: 'index-es.html'
 url:              https://azarrias.github.io
 baseurl:          '/hydeout-multilingual'
