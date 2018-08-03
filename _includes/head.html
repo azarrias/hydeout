@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+    {% if page.url == site.index.url[page.lang] %}
+      {{ site.title[page.lang] }}{% if site.tagline %} &middot; {{ site.tagline[page.lang] }}{% endif %}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} &middot; {{ site.title[page.lang] }}
     {% endif %}
   </title>
-
+  
   {% include google-analytics.html %}
 
   <!-- CSS -->
