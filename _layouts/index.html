@@ -7,7 +7,7 @@ layout: default
 
   {{ content }}
 
-  {% assign postlist = paginator.posts|where:"lang", page.lang|sort:"sidebar_sort_order" %}
+  {% assign postlist = paginator.posts|where:"lang", page.lang %}
   {% for post in postlist %}
   <article class="post-body">
     <h2 class="post-title">
