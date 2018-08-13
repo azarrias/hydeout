@@ -2,7 +2,7 @@
 layout: post
 title: Hello Hydeout
 excerpt_separator:  <!--more-->
-lang: en
+lang: es
 ---
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)

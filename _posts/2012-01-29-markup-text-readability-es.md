@@ -8,7 +8,7 @@ tags:
   - sample post
   - readability
   - test
-lang: en
+lang: es
 last_modified_at: 2012-01-29T12:26:59-05:00
 ---
 
