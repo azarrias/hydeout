@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Edge Case: Many Tags"
+title: "Caso Extremo: Muchas etiquetas"
 categories:
   - Caso Extremo
 tags:
