@@ -7,7 +7,8 @@ layout: default
 
   {{ content }}
 
-  {% for post in paginator.posts %}
+  {% assign postlist = paginator.posts|where:"lang", page.lang|sort:"sidebar_sort_order" %}
+  {% for post in postlist %}
   <article class="post-body">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
