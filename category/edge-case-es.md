@@ -15,7 +15,7 @@ title: Mi Categoría
 ---
 ```
 
-Or ...
+O ...
 
 ```md
 ---
