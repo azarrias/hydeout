@@ -35,14 +35,9 @@ author:
   name:           'Adolfo Zarrias'
   url:            https://twitter.com/adolfozt
 
-paginate:         5
+#paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
-pagination: 
-  - paginate:
-      path:       /page:num
-  - paginate:
-      path:       /es/page:num
 
 plugins:
   - jekyll-feed
