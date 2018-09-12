@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Caso Extremo
+ref: edge-case
 lang: es
 ---
 
