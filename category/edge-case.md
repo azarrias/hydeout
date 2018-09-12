@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Edge Case
+ref: edge-case
 lang: en
 ---
 
