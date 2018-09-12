@@ -15,7 +15,7 @@
       <span class="tag-name">{{ tag }}</span>
       <span class="tag-count">{{ site.tags[tag] | size }}</span>
     </a>
-	  {% endif %}
+    {% endif %}
     {% endfor %}
   </div>
 
@@ -28,6 +28,7 @@
       <h2>{{ tag }}</h2>
       <ul class="posts-list">
         {% for post in site.tags[tag] %}
+	{% if post.lang == page.lang %}
           <li>
             <h3>
               <a href="{{ site.baseurl }}{{ post.url }}">
@@ -36,6 +37,7 @@
               </a>
             </h3>
           </li>
+	{% endif %}
         {% endfor %}
       </ul>
     </div>
