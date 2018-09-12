@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="{{ page.layout }}{% if page.layout == "default" %} home{% endif %}">
+  <body class="{{ page.layout }}{% if page.ref == 'index' %} home{% endif %}">
 
     {% include sidebar.html %}
 
