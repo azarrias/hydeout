@@ -8,7 +8,8 @@ layout: page
 
 <ul class="posts-list">
   {% assign category = page.category | default: page.title %}
-  {% for post in site.categories[category] %}
+  {% assign posts = site.categories[category]|where:"lang", page.lang %}
+  {% for post in posts %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
