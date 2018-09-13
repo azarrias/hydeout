@@ -1,14 +1,15 @@
 ---
 layout: post
 categories:
-  - Edge Case
+  - Caso Extremo
 tags:
-  - edge case
+  - caso extremo
   - layout
-  - title
+  - título
+ref: edge-case-no-yaml-title
 lang: es
 ---
 
-This post has no title specified in the YAML Front Matter. Jekyll should auto-generate a title from the filename.
+Este post no tiene título en el YAML Front Matter. Jekyll debería auto-generar un título a partir del nombre del fichero.
 
-For example `2009-09-05-edge-case-no-yaml-title.md` becomes **Edge Case No Yaml Title**.
+Por ejemplo `2009-09-05-edge-case-no-yaml-title.md` se convierte en **Edge Case No Yaml Title**.
