@@ -13,8 +13,8 @@ categories:
   - disinclination
   - disinfection
 tags:
+  - caso extremo
   - categories
-  - edge case
 ref: edge-case-many-categories
 lang: es
 ---
