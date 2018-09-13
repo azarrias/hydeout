@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Edge Case: Many Categories"
+title: "Caso Extremo: Muchas categorías"
 categories:
   - aciform
   - antiquarianism
@@ -15,7 +15,8 @@ categories:
 tags:
   - categories
   - edge case
+ref: edge-case-many-categories
 lang: es
 ---
 
-This post has many categories.
+Este post tiene muchas categorías.
