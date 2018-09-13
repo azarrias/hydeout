@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Edge Case: No Body Content"
-excerpt: "This post has no body content and should be blank on the post's page."
+title: "Caso Extremo: Post sin contenido"
+excerpt: "Este post no tiene contenido y debería mostrarse en blanco en su página."
 categories:
-  - Edge Case
+  - Caso Extremo
 tags:
-  - content
-  - edge case
+  - caso extremo
+  - contenido
   - layout
 lang: es
 last_modified_at: 2017-03-09T14:23:48-05:00
