@@ -35,7 +35,7 @@
     <a id="tags-link"
        class="icon{% if page.ref == 'tags' %} active{% endif %}"
        title="Tags" aria-label="Tags"
-       href="{{ site.baseurl }}{{ site.tags_page_url[page.lang] }}">
+       href="{{ site.baseurl }}/{{ site.tags_page_url[page.lang] }}">
       {% include svg/tags.svg %}
     </a>
   {% endif %}
@@ -44,7 +44,7 @@
     <a id="search-link"
        class="icon{% if page.ref == 'search' %} active{% endif %}"
        title="Search" aria-label="Search"
-       href="{{ site.baseurl }}{{ site.search_page_url[page.lang] }}">
+       href="{{ site.baseurl }}/{{ site.search_page_url[page.lang] }}">
       {% include svg/search.svg %}
     </a>
   {% endif %}
