@@ -6,6 +6,7 @@ tags:
   - edge case
   - layout
   - title
+edge-case-no-yaml-title
 lang: en
 ---
 
