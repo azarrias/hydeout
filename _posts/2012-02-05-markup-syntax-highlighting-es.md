@@ -6,6 +6,7 @@ last_modified_at: 2012-02-05T10:27:01-05:00
 tags:
   - code
   - syntax highlighting
+ref: markup-syntax-highlighting
 lang: es
 ---
 

@@ -8,6 +8,7 @@ tags:
   - Post Formats
   - readability
   - standard
+ref: post-standard
 lang: en
 ---
 

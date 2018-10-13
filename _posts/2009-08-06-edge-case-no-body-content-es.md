@@ -8,6 +8,7 @@ tags:
   - caso extremo
   - contenido
   - layout
+ref: edge-case-no-body-content
 lang: es
 last_modified_at: 2017-03-09T14:23:48-05:00
 ---

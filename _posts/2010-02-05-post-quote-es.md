@@ -6,6 +6,7 @@ categories:
 tags:
   - Post Formats
   - quote
+ref: post-quote
 lang: es
 ---
 

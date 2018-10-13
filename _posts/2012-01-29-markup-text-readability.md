@@ -8,6 +8,7 @@ tags:
   - sample post
   - readability
   - test
+ref: markup-text-readability-test
 lang: en
 last_modified_at: 2012-01-29T12:26:59-05:00
 ---

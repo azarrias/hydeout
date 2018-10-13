@@ -8,6 +8,7 @@ tags:
   - content
   - edge case
   - layout
+ref: edge-case-no-body-content
 lang: en
 last_modified_at: 2017-03-09T14:23:48-05:00
 ---

@@ -8,6 +8,7 @@ tags:
   - markup
   - post
   - title
+ref: markup-title-with-special-characters
 lang: es
 last_modified_at: 2012-01-31T12:23:27-05:00
 ---
