@@ -35,6 +35,7 @@ search_page_url:
                   
 # Multilingual config
 default_lang: en
+languages: ["en", "es"]
 
 author:
   name:           'Adolfo Zarrias'
