@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Ejemplos de contenido
 ref: example-content
 lang: es
 ---
