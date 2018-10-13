@@ -34,8 +34,7 @@ search_page_url:
   es: 'search-es.html'
                   
 # Multilingual config
-lang: en
-languages: ["en", "es"]
+default_lang: en
 
 author:
   name:           'Adolfo Zarrias'
@@ -59,3 +58,7 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/azarrias/hydeout-multilingual
+
+# For Google Analytics support, define a google_analytics 
+# variable with your property ID in your config file
+google_analytics: UA-90175844-2
