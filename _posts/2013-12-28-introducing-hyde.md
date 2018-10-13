@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Hyde
+ref: introducing-hyde
 lang: en
 ---
 
