@@ -1,27 +1,28 @@
 ---
 layout: post
-title: Hello Hydeout
-excerpt_separator:  <!--more-->
+title: Hola Hydeout
+excerpt_separator:  <!--más-->
+ref: hello-hydeout
 lang: es
 ---
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
+Hydeout actualiza al tema original [Hyde](https://github.com/poole/hyde)
+para [Jekyll](http://jekyllrb.com) 3.x y le añade nuevas funcionalidades.
 
-### Keep It Simple
+### Mantenlo sencillo
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+Siguiendo con el tema original Hyde, Hydeout busca mantener el diseño
+ligero sin plugins. El uso de JavaScript se limita únicamente a 
+Disqus y Google Analytics (y sólo se incluye si las respectivas variables de configuración 
+han sido informadas).
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+Hydeout hace uso extensivo de Flexbox en sus CSS. Si Flexbox no está disponible,
+los CSS se degradan a un layout de una sola columna.
 
-### Customization
+### Personalización
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+Hydeout reemplaza el funcionamiento de Hyde, basado en clases
+mediante el uso de las siguiente variables SASS:
 
 ```scss
 $sidebar-bg-color: #202020 !default;
@@ -30,12 +31,12 @@ $layout-reverse: false !default;
 $link-color: #268bd2 !default;
 ```
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+Para anular estas variables, podemos crear nuestro propio fichero `assets/css/main.scss`.
+Definimos nuestras propias variables, y las importamos al SCSS de Hydeout, de la siguiente manera:
 
 ```
 ---
-# Jekyll needs front matter for SCSS files
+# Jekyll requiere encabezado para los ficheros SCSS
 ---
 
 $sidebar-bg-color: #ac4142;
@@ -44,40 +45,40 @@ $sidebar-sticky: false;
 @import "hydeout";
 ```
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
+Hecha un vistazo al fichero de [_variables](_sass/hydeout/_variables.scss) para ver
+otras variables que pueden ser anuladas.
 
-You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own `_includes/custom-head.html` or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
+Es posible también insertar etiquetas personalizadas (e.g. para cargar nuestras propias hojas de estilos) 
+definiendo nuestros propios `_includes/custom-head.html` o insertar etiquetas al final
+del cuerpo (e.g. para JS personalizado) definiendo nuestro propio
 `_includes/custom-foot.html`.
 
-### New Features
+### Nuevas Funcionalidades
 
-* Hydeout also adds a new tags page (accessible in the sidebar) and a new
-  "category" layout for dedicated category pages.
+* Hydeout también añade una nueva página de etiquetas (accesible desde la barra lateral) y un nuevo
+  layout de "categoría" para páginas dedicadas a una determinada categoría.
 
-* Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar.
+* Las páginas de categoría son añadidas automáticamente a la barra lateral. Todas las demás páginas
+  deben tener `sidebar_link: true` en su cabecera para ser mostradas en la 
+  barra lateral.
 
-* A simple redirect-to-Google search is available. If you want to use
-  Google Custom Search or Algolia or something with more involved,
-  override the `search.html`.
+* Una redirección simple a Google search está disponible. Para utilizar 
+  Google Custom Search o Algolia o algo diferente,
+  debemos anular `search.html`.
 
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
+* La integración con Disqus está lista de entrada. Solamente debemos añadir lo siguiente a
+  nuestro fichero de configuración:
 
   ```yaml
   disqus:
     shortname: my-disqus-shortname
   ```
 
-  If you don't want Disqus or want to use something else, override
+  Si no quieres utilizar Disqus o quieres utilizar otro sistema, deberás anular
   `comments.html`.
 
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
+* Para soportar la integración con Google Analytics, define una variable `google_analytics` con
+  tu ID de propiedad en tu fichero de configuración.
 
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+Hay también un montón de ajustes menores por todo el tema.
+Espero que encaje con tus necesidades!
