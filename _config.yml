@@ -32,6 +32,9 @@ tags_page_url:
 search_page_url:
   en: 'search.html'
   es: 'search-es.html'
+feed_page_url:
+  en: 'feed.xml'
+  es: 'feed-es.xml'
                   
 # Multilingual config
 default_lang: en
