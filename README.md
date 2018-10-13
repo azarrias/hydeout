@@ -13,6 +13,10 @@ Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
 Add `gem "jekyll-theme-hydeout", "~> 3.4"` to your Gemfile and run
 `bundle install`.
 
+If you're installing on Github pages, you may also have to add
+`remote_theme: fongandrew/hydeout` to your `_config.yml`. [See the Github
+instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
+
 Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
 it with an `index.html` that uses the `index` layout:
 
@@ -23,7 +27,7 @@ title: Home
 ---
 ```
 
-You'll also need to add a setting to `config.yml` telling Jekyll how many posts
+You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
 to include per page (e.g. `paginate: 5`).
 
 ### Keep It Simple
@@ -43,6 +47,7 @@ of the following SASS variables:
 
 ```scss
 $sidebar-bg-color: #202020 !default;
+$sidebar-fg-color: white !default;
 $sidebar-sticky: true !default;
 $layout-reverse: false !default;
 $link-color: #268bd2 !default;
