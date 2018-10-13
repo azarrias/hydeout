@@ -59,8 +59,11 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+                                
+# Github setting
 github:
   repo:             https://github.com/azarrias/hydeout-multilingual
+version:            4.0.0
 
 # For Google Analytics support, define a google_analytics 
 # variable with your property ID in your config file
