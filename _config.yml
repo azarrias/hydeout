@@ -39,6 +39,9 @@ feed_page_url:
 # Multilingual config
 default_lang: en
 languages: ["en", "es"]
+excerpt_separator_literal:
+  en: 'More &hellip;'
+  es: 'Más &hellip;'
 
 author:
   name:           'Adolfo Zarrias'

@@ -33,7 +33,7 @@ layout: default
       {% endcapture %}
 
       {% if content_words != excerpt_words %}
-        <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ site.excerpt_separator_literal[post.lang] }}</a>
       {% endif %}
     {% endif %}
   </article>
